@@ -44,7 +44,7 @@ public class EmployeeHandler extends HttpServlet {
 			int a=empDao.addEmployee(newEmployee);
 			if(a!=0)
 			{
-				response.sendRedirect("/CrudServlet/success.jsp");
+				response.sendRedirect("/success.jsp");
 				
 			}
 			else{
