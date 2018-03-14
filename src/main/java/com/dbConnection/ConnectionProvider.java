@@ -13,7 +13,7 @@ public class ConnectionProvider {
             try {
                 
             	 String driver = "com.mysql.jdbc.Driver";
-	                String url = "jdbc:mysql://employees.ccvesqmhbtc4.ap-south-1.rds.amazonaws.com:3308/shwetank";
+	                String url = "jdbc:mysql://mydbinstance.c86ikanw3y5b.us-east-1.rds.amazonaws.com:3306/employees";
 	                String user = "shwetank";
 	                String password = "shwetank";
                 Class.forName(driver);
