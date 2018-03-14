@@ -35,6 +35,7 @@
 		%>
 		<form method="POST" action="EmployeeHandler">
 
+			<h1>Edit Employee Information</h1>
 			<input type="hidden" name="action" value="edit" /> 
 			<%
  			Employee employee = (Employee)request.getAttribute("employee");
