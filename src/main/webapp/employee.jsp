@@ -34,7 +34,7 @@
 		<form method="post" action="EmployeeHandler" >
 
 		<input type="hidden" name="action" value="insert" />
-		<br> <h1> <font color="brown"><b>Add New Record </b> </h1> </font> 
+		<br> <h1> <font color="brown"><b>Add New Employee Record </b> </h1> </font> 
 		<table>
 		
 			<tr>
